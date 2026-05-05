@@ -1,3 +1,12 @@
 {
-  "domains": []
+  "domains": [
+    {
+      "id": "rxjs",
+      "name": "RxJS",
+      "description": "Reactive Extensions for JavaScript — operators, observables, and reactive patterns",
+      "createdAt": "2026-05-05T00:00:00.000Z",
+      "lastRun": null,
+      "topicCount": null
+    }
+  ]
 }
