@@ -112,7 +112,7 @@ pipelineRouter.post('/pipeline/run/:domain', async (req, res) => {
 		},
 		extraction: {
 			model:         (req.body as { model?: string }).model ?? 'claude-haiku-4-5-20251001',
-			maxChunkChars: 12000,
+			maxChunkChars: 8000,
 		},
 		output: { dir: join(DATA_DIR, 'curriculum', domainId) },
 	}

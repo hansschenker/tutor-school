@@ -53,7 +53,7 @@ export async function extractTopics(
 
 	const response = await client.messages.create({
 		model:       config.extraction.model,
-		max_tokens:  4096,
+		max_tokens:  8192,
 		system:      systemPrompt,
 		tools:       [EXTRACTION_TOOL],
 		tool_choice: { type: 'any' },

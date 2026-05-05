@@ -7,6 +7,14 @@
       "createdAt": "2026-05-05T00:00:00.000Z",
       "lastRun": null,
       "topicCount": null
+    },
+    {
+      "id": "typescript",
+      "name": "Advanced TypeScript",
+      "description": "Advanced TypeScript type system � conditional types, mapped types, template literals, generics, and type-level programming",
+      "createdAt": "2026-05-05T08:55:43.052Z",
+      "lastRun": "2026-05-05T09:03:13.863Z",
+      "topicCount": 52
     }
   ]
 }
